@@ -1,0 +1,31 @@
+{
+  "name": "geobounds",
+  "version": "0.0.0",
+  "description": "Checks if point is in bounds.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "code42day/geobounds",
+  "license": "MIT",
+  "keywords": [
+    "geobounds",
+    "geo",
+    "bounds",
+    "rectangle"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
