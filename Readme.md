@@ -16,8 +16,14 @@ $ npm install --save geobounds
 
 ```js
 var geobounds = require('geobounds');
+var bounds = geobounds([
+  [[-1, 0], [3, 5]],
+  [[100, 20], [115, 80]]
+]);
 
-geobounds('Rainbow');
+bounds([1, 1]); // true
+bounds([4, 1]); // false
+
 ```
 
 ## License
