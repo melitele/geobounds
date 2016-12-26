@@ -1,6 +1,6 @@
 {
   "name": "geobounds",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Checks if point is in bounds.",
   "author": {
     "name": "Damian Krzeminski",
