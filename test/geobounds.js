@@ -15,6 +15,14 @@ describe('bounds', function() {
     bounds([[[-1, 0], [3, 5]], [[100, 20], [115, 80]]])([1, 1]).should.be.ok();
   });
 
+  it('should succeed if point is inside the polygon', function() {
+    bounds([[[ 1, 1 ], [ 1, 2 ], [ 2, 2 ], [ 2, 1 ]]])([1.5, 1.5]).should.be.ok();
+  });
+
+  it('should succeed if point is in one of the shapes', function() {
+      bounds([[[ 1, 1 ], [ 1, 2 ], [ 2, 2 ], [ 2, 1 ]], [[2, 2], [4, 4]]])([3, 3]).should.be.ok();
+    });
+
   it('should fail point is in none of the ranges', function() {
     bounds([[[-1, 0], [3, 5]], [[100, 20], [115, 80]]])([4, 1]).should.not.be.ok();
   });
