@@ -28,13 +28,13 @@ bounds([4, 1]); // false
 
 ## License
 
-MIT © [Damian Krzeminski](https://code42day.com)
+MIT © [Damian Krzeminski](https://pirxpilot.me)
 
 [npm-image]: https://img.shields.io/npm/v/geobounds.svg
 [npm-url]: https://npmjs.org/package/geobounds
 
-[travis-url]: https://travis-ci.org/code42day/geobounds
-[travis-image]: https://img.shields.io/travis/code42day/geobounds.svg
+[travis-url]: https://travis-ci.org/melitele/geobounds
+[travis-image]: https://img.shields.io/travis/melitele/geobounds.svg
 
 [gemnasium-image]: https://img.shields.io/gemnasium/code42day/geobounds.svg
 [gemnasium-url]: https://gemnasium.com/code42day/geobounds

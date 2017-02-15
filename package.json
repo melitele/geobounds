@@ -4,10 +4,10 @@
   "description": "Checks if point is in bounds.",
   "author": {
     "name": "Damian Krzeminski",
-    "email": "pirxpilot@code42day.com",
-    "url": "https://code42day.com"
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
   },
-  "repository": "code42day/geobounds",
+  "repository": "melitele/geobounds",
   "license": "MIT",
   "keywords": [
     "geobounds",
