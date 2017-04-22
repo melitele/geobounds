@@ -26,6 +26,19 @@ bounds([4, 1]); // false
 
 ```
 
+Bounds can be dynamically extended.
+
+```js
+var geobounds = require('geobounds');
+var bounds = geobounds();
+
+bounds.extend([0, 1]);
+bounds.extend([1, 0]);
+
+bounds.get(); // [[[0, 0], [1, 1]]]
+
+```
+
 ## License
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
