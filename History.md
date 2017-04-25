@@ -1,4 +1,10 @@
 
+1.2.0 / 2017-04-25
+==================
+
+ * dynamically extend bounds
+ * inside rectangle includes border
+
 1.1.1 / 2017-02-15
 ==================
 
